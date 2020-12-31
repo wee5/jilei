@@ -1,0 +1,8 @@
+反编译的软件：jd-gui软件，ideaJad插件，idea自带两款反编译插件
+使用jd-gui
+    用jd-gui打开jar包，file-save all source得到包含源码的压缩包
+    解压得到源码，源码中存在大量报错（这个错误可能是反编译造成的，也可能是解压造成的）
+    还可以将压缩包作为source导入idea，在class文件的右上方有导入选项
+使用ideaJad插件
+    （我使用ideaJad时，并没有将jar包反编译成功，不知道为什么，怀疑该jar包太久远了）
+    安装ideaJad后，直接打开class文件，会提示是否反编译该文件，几乎是全自动，不需要额外操作
