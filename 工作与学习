@@ -1,3 +1,5 @@
 2020/12/19  改造旧jar包------------
     反编译工具
     idea查看依赖的源码
+    解析xml字符串：org.dom4j
+    解析json字符串：com.alibaba.fastJson
